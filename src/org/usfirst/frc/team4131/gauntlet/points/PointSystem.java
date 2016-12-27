@@ -3,6 +3,12 @@ package org.usfirst.frc.team4131.gauntlet.points;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The point system converts yaw/pitch/radius coordinates into keyframes.
+ * Call {@link #addLocation(Location)} to add location/keyframe pairs in initialization, and {@link #getLocation(float, float, float)} for
+ * every point as it is read from the IMU. 
+ * @author endreman0
+ */
 public class PointSystem{
 	/**
 	 * For any location {@code loc}, all triples {@code (loc.yaw +/- errorYaw, loc.pitch +/- errorPitch, loc.radius +/- errorRadius)} are considered
