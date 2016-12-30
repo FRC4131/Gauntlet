@@ -1,4 +1,4 @@
-#include "Arduino.h"
+#include "Arduino.h"//Necessary to reference byte
 
 struct point{
   double yaw;
