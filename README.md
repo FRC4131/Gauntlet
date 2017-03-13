@@ -19,4 +19,5 @@ Provides a stream of IMU data to the point system, and acts upon gestures identi
 
 ## Branches in this Repository
 - `prototype`: prototype code (in Java) for development. The client takes in simulated IMU data from the user and outputs gestures back.
-- `experiment`: Arduino code for "production". The client takes in data from a 9DoF IMU and outputs gesture to the Serial monitor.
+- `Arduino`: Arduino code for "production". The client takes in data from a 9DoF IMU and outputs gesture to the Serial monitor.
+- `experiment`: deprecated on 12-Mar-2017: Arduino code for "production". The client takes in data from a 9DoF IMU and outputs gesture to the Serial monitor.
